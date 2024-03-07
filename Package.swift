@@ -18,7 +18,10 @@ let package = Package(
             name: "FormulaPackage",
             resources: [
                 .process("Resources/20230022.json")
-            ]),
+            ],
+            swiftSettings: [
+                    .define("SPM")
+                  ]),
         .testTarget(
             name: "FormulaPackageTests",
             dependencies: ["FormulaPackage"]),
