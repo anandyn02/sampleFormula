@@ -17,7 +17,7 @@ let package = Package(
         .target(
             name: "FormulaPackage",
             resources: [
-                .process("20230022.json")
+                .process("Resources")
             ],
             swiftSettings: [
                     .define("SPM")
