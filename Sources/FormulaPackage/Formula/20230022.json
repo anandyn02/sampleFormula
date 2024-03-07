@@ -1,0 +1,87 @@
+{
+  "formularSection": {
+    "formula": {
+      "title": "FORMULA",
+      "desc": [
+        "Fractional Excretion of Sodium (FENa), % = 100 × (SCr × UNa ) / (SNa × UCr)\\n SCr, serum creatinine; UNa, urine sodium; SNa, serum sodium; UCr, urine creatinine."
+      ]
+    },
+    "equation": {
+      "title": "how the equation is derived",
+      "steps": [
+        "FENa is a measure of tubular resorption of Na.",
+        "FENa = (Na excreted/Na filtered) x 100.",
+        "Na excreted = UNa × urine volume.",
+        "Therefore, Na filtered = PNa × (UCr × urine volume)/PCr."
+      ]
+    },
+    "interpretation": [],
+    "reference": {
+      "title": "The FENa test. Use in the differential diagnosis of acute renal failure",
+      "id": "PMID: 947239",
+      "abstract": "The FENa test, a determination of the excreted fraction of the filtered sodium, was performed in patients in the oliguric phase of acute renal failure. Patients with prerenal azotemia had an FENa of less than 1, and patients with acute tubular necrosis had an FENa of more than 3 (P less than .001). This simple test clearly differentiates between these two conditions and, thus, is of considerable clinical value."
+    }
+  },
+  "inputs": [
+    {
+      "title": "Serum sodium",
+      "desc": "",
+      "options": {
+        "placeholder": [
+          "Norm 136 - 145",
+          "Norm 136 - 145"
+        ],
+        "type": "1",
+        "option": [
+          "mEq/L",
+          "mmol/L"
+        ]
+      }
+    },
+    {
+      "title": "Serum creatinine",
+      "desc": "",
+      "options": {
+        "placeholder": [
+          "Norm 0.7 - 1.3",
+          "Norm 62 - 115"
+        ],
+        "type": "1",
+        "option": [
+          "mg/dL",
+          "µmol/L"
+        ]
+      }
+    },
+    {
+      "title": "Urine sodium",
+      "desc": "",
+      "options": {
+        "placeholder": [
+          "Norm 100 - 260",
+          "Norm 100 - 260"
+        ],
+        "type": "1",
+        "option": [
+          "mEq/dL",
+          "mmol/L"
+        ]
+      }
+    },
+    {
+      "title": "Urine creatinine",
+      "desc": "",
+      "options": {
+        "placeholder": [
+          "Norm 20 - 370",
+          "Norm 1768 - 32708"
+        ],
+        "type": "1",
+        "option": [
+          "mg/dL",
+          "µmol/L"
+        ]
+      }
+    }
+  ]
+}
