@@ -16,10 +16,11 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "FormulaPackage",
-            resources: [.copy("Resources")]),
+            resources: [
+                .process("Resources/20230022.json")
+            ]),
         .testTarget(
             name: "FormulaPackageTests",
             dependencies: ["FormulaPackage"]),
-        
     ]
 )
